@@ -1,30 +1,33 @@
-# React + TypeScript + Vite
+# Google Translate Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido a Google Translate Clone! Este es un proyecto que recrea la funcionalidad básica de Google Translate utilizando React, Bootstrap y TypeScript. Con esta aplicación, los usuarios pueden traducir texto de un idioma a otro de manera rápida y sencilla.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Interfaz Intuitiva:** Diseño inspirado en la interfaz limpia y fácil de usar de Google Translate.
+- **Traducción en Tiempo Real:** La aplicación utiliza la API de Openai para ofrecer traducciones precisas y en tiempo real.
+- **Compatibilidad con Varios Idiomas:** Admite la traducción entre una amplia variedad de idiomas gracias a la potencia de Google Translate.
+- **Personalización de Estilos:** Integración de Bootstrap para una apariencia moderna y capacidad de personalización.
 
-## Expanding the ESLint configuration
+## Tecnologías Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React:** Biblioteca de JavaScript para construir interfaces de usuario interactivas.
+- **Bootstrap:** Marco de diseño para la creación de interfaces web modernas y receptivas.
+- **TypeScript:** Superset de JavaScript que agrega tipado estático opcional.
 
-- Configure the top-level `parserOptions` property like this:
+## Requisitos Previos
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Asegúrate de tener instalado Node.js en tu sistema. Puedes descargarlo [aquí](https://nodejs.org/).
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Instalación
+
+1. Clona este repositorio: `git clone https://github.com/tu-usuario/google-translate-clone.git`
+2. Navega al directorio del proyecto: `cd google-translate-clone`
+3. Instala las dependencias: `npm install`
+
+## Uso
+
+1. Inicia la aplicación: `npm start`
+2. Abre tu navegador y visita [http://localhost:3000](http://localhost:3000)
+
+¡Ahora deberías ver la aplicación Google Translate Clone en acción! Puedes comenzar a traducir texto de un idioma a otro de manera fácil y rápida.
